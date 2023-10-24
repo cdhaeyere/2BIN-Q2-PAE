@@ -1,4 +1,43 @@
-# Projet d'application d'entreprises | Groupe 1
+# Business Application Project | Group 1
+
+## Description
+
+This repository contains the source code of the business application developed by Group 1 as part of the Enterprise Application Development course.
+
+## Context
+
+This application was commissioned by a fictional client (professor). The request was made in the form of a tender, to which we responded with a detailed specification document. This specification document is available in the `docs` folder. We used this specification document as the basis for developing the application.
+
+We started by designing the application, creating use case diagrams, class diagrams, sequence diagrams, and deployment diagrams. These diagrams are available in the `docs` folder. To develop the application, we used Jakarta EE (Java EE), which is available in the `src` folder. An accompanying web application was developed using Vanilla JS, HTML, and CSS, and it is available in the `webapp` folder.
+
+## Installation
+
+### Prerequisites
+
+- Java (JDK 11 or higher)
+- NodeJS (v14.15.4 or higher)
+
+### Installation Steps
+
+1. Clone the repository
+```bash
+git clone https://github.com/cdhaeyere/2BIN-Q2-PAE.git
+```
+2. Launch the Java application from the IDE of your choice
+3. Start the web application with NodeJS
+    - Navigate to the `webapp` folder
+    ```bash
+    cd webapp
+    ```
+    - Install dependencies
+    ```bash
+    npm install
+    ```
+    - Run the application
+    ```bash
+    npm start
+    ```
+4. Visit http://localhost:3000 to access the web application
 
 ## Endpoints
 
